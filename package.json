@@ -1,0 +1,76 @@
+{
+  "name": "discovery_webview",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.2",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "file-saver": "^2.0.5",
+    "google-map-react": "^2.1.10",
+    "html2canvas": "^1.4.1",
+    "i18next": "^21.5.2",
+    "leaflet": "^1.8.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "query-string": "^7.0.1",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.14.3",
+    "react-infinite-scroller": "^1.2.4",
+    "react-leaflet": "^4.0.2",
+    "react-qr-code": "^2.0.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-slide-routes": "^2.0.0",
+    "swiper": "^8.2.5",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "set PORT=4200 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "source-map-explorer": "^2.5.2",
+    "tailwindcss": "^3.1.4"
+  }
+}

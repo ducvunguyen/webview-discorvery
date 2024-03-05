@@ -1,0 +1,11 @@
+// export { default as ClassicCard } from './ClassicCard.png';
+// export { default as GoldCard } from './GoldCard.png';
+// export { default as InfiniteCard } from './InfiniteCard.png';
+// export { default as PlatinumCard } from './PlatinumCard.png';
+// export { default as Visa } from './Visa.png';
+// export { default as JCB } from './JCB.png';
+// export { default as NoData } from './NoData.png';
+// export { default as IconLocation } from './IconLocation.png';
+// export { default as IconShare } from './Share.png';
+// export { default as Verify } from './Verify.png';
+// export { default as GifVoucher } from './gif_voucher.png';

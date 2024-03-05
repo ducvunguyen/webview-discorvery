@@ -1,0 +1,24 @@
+export const NATIVE_ACTION = {
+  CLOSE_APP: 'GO_BACK',
+  TEL: 'TEL',
+  SHARE: 'SHARE',
+  BROWSER: 'OPEN_BROWSER',
+  SHARE_FACEBOOK: 'SHARE_FACEBOOK',
+};
+
+export const EVENT = {
+  SHOW_MESSAGE: 'SHOW_MESSAGE',
+  SHOW_MODAL_CLOSE_APP: 'SHOW_MODAL_CLOSE_APP',
+  FETCHED_CATEGORIES: 'FETCHED_CATEGORIES',
+  FETCH_FAVORITE_LIST: 'FETCH_FAVORITE_LIST',
+  CHANGE_LIKE: 'CHANGE_LIKE'
+};
+
+export const LOCAL_STORAGE_KEY = {
+  SEARCH_HISTORY: 'search_history',
+  AUTH_TOKEN: 'auth_token',
+  REFRESH_TOKEN: 'refresh_token',
+  USER_LOCATION: 'user_location',
+};
+
+export const PUBLIC_URL = process.env.PUBLIC_URL + '/resources/';
